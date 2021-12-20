@@ -22,6 +22,7 @@
 .springBeans
 .vscode
 /code
+!gradle-wrapper.jar
 MANIFEST.MF
 _site/
 activemq-data
