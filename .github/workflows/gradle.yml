@@ -32,7 +32,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-	image: kians2/docker101tutorial
-	registry: docker.io
-	username:${{ secrets.DOCKER_USERNAME }}
-	password: ${{ secrets.DOCKER_PASSWORD }}
+        image: kians2/docker101tutorial
+        registry: docker.io
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
